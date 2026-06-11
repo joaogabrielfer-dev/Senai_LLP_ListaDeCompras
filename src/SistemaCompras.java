@@ -137,8 +137,7 @@ public class SistemaCompras {
             String qtd = ler.nextLine();
 
             if (!qtd.isBlank()) {
-                item.setQuantidade(
-                        Double.parseDouble(qtd));
+                item.setQuantidade(Double.parseDouble(qtd));
             }
 
             System.out.print(">> Preço: ");
